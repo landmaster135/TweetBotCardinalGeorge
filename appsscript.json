@@ -1,0 +1,31 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "TwitterWebService",
+        "version": "2",
+        "libraryId": "1rgo8rXsxi1DxI_5Xgo_t3irTw1Y5cxl2mGSkbozKsSXf2E_KBBPC3xTF"
+      },
+      {
+        "userSymbol": "OAuth1",
+        "version": "18",
+        "libraryId": "1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s"
+      },
+      {
+        "userSymbol": "LandGasterId",
+        "version": "0",
+        "libraryId": "1CEb_7m3qP0ygig5SuuuO95j72N5d4s6ZjrSCzYhH85gZTjCJc89TgYVI",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "LandmasterLibraryGas",
+        "version": "0",
+        "libraryId": "1RT9wqSQIY82cdkNNP0Pz5TF0knsFDTr8b5MdpwHLMxgWoi2pw6y2E9Mk",
+        "developmentMode": true
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
