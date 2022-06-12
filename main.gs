@@ -304,10 +304,15 @@ function main() {
   let wordArray = selectWordsToTweet('JP');
   let sentence  = decideSentenceToTweet(wordArray, 'JP');
   postTweet(sentence, 'JP');
+  let sentenceObj = {};
+  sentenceObj['JP'] = sentence;
 
   // English mode.
   wordArray = selectWordsToTweet('EN');
   sentence  = decideSentenceToTweet(wordArray, 'EN');
   postTweet(sentence, 'EN');
+  sentenceObj['EN'] = sentence;
+
+  return sentenceObj;
 
 }

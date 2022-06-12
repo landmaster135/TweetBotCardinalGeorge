@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <title><?= SITE_TITLE ?></title>
+    <?!= HtmlService.createHtmlOutputFromFile("index_css").getContent() ?>
+  </head>
+  <body>
+    <h1><?= SITE_TITLE ?></h1>
+    <h2 class="result1">Output Files</h2>
+      <? let data = main(); ?>
+      <p><?= data['JP'] ?></p>
+      <p><?= data['EN'] ?></p>
+  </body>
+</html>
